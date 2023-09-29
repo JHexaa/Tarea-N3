@@ -1,0 +1,266 @@
+:root{
+    --color-principal: rgb(255, 0, 0);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+
+.nav-logo{
+    width: 184px;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 150px;
+    flex-wrap: wrap;
+}
+
+.navlist1{
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlist1 a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+.navlist1 a:hover{
+    color: rgb(50,50,50);
+}
+
+.nav-section2{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 100px;
+}
+
+.navlist2 {
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+
+.navlist2 a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+.navlist2 a:hover{
+    color: rgb(50, 50, 50);
+}
+
+.navlist3{
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-img{
+    max-width: 100%;
+    width: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 10px;
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.main-box{
+    background-image: url(image/main-img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
+.main-text{
+    flex-shrink: 0;
+    left: 10%;
+    position: relative;
+    background-color: black;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.main-text h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.main-text p{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.main-text a{
+    display: inline-block;
+    background-color: var(--color-principal);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section-title{
+    font-size: 25px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-product{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 325px;
+}
+
+.section-product img{
+    max-width: 100%;
+    margin-bottom: 32px;
+    width: 300px;   
+    max-height: 50%;
+}
+
+.box-container{ 
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 324px;
+    text-align: center;
+}
+
+.box-container:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box-container a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.box-text-container{
+    max-width: 100%;
+}
+
+.box-text-container h2{
+    margin-top: 2px;
+    margin-bottom: 15%;
+}
+
+.promo-section{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.promo-section img{
+    display: block;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.last-section{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    gap: 5px;
+}
+
+.last-section a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--color-principal);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3215em;
+}
+
+.last-section a:hover{
+    text-decoration-color: rgb(90, 0, 0)
+}
+
+footer{
+    background-color: white;
+    height: 180px;
+    padding: 40px;
+}
+
+footer img{
+    width: 160px;
+}
+
+.footer-text{
+    margin: 20px auto;
+}
+ 
+.footer-text a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    gap: 5px;
+}
+
+.footer-country a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+    float: right;
+    margin-bottom: 20px;
+}
+
